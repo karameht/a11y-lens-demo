@@ -185,6 +185,48 @@ function App() {
         </form>
       </section>
 
+      {/* Legal Footer */}
+      <footer
+        style={{
+          borderTop: "1px solid #ccc",
+          padding: "20px",
+          marginTop: "40px",
+          textAlign: "center",
+          fontSize: "14px",
+          color: "#666",
+        }}
+      >
+        <p>
+          Built with ❤️ by{" "}
+          <a
+            href="https://karameht.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            karameht
+          </a>
+        </p>
+        <p style={{ marginTop: "10px" }}>
+          <a
+            href="https://karameht.com/impressum/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ margin: "0 10px", color: "#666" }}
+          >
+            Impressum
+          </a>
+          |
+          <a
+            href="https://karameht.com/datenschutz/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ margin: "0 10px", color: "#666" }}
+          >
+            Datenschutz
+          </a>
+        </p>
+      </footer>
+
       {/* A11yLens Panel - The star of the show! */}
       <A11yLens forceShow={true} debug={true} />
     </>
